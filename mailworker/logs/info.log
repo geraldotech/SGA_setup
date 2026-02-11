@@ -1,0 +1,18 @@
+[2026-01-15 20:32:04] [INFO] Rota /start acionada | IP=127.0.0.1
+[2026-01-15 20:32:04] [INFO] Conectando ao banco 127.0.0.1:3306/sga_dev2
+[2026-01-15 20:32:04] [INFO] Conectado ao banco com sucesso
+[2026-01-15 20:32:04] [INFO] Tabela 'email_outbox' encontrada
+[2026-01-15 20:32:04] [INFO] Carregando config SMTP da prm_email
+[2026-01-15 20:32:04] [INFO] SMTP OK | servidor=dfpcmefspt.underplatform.com porta=465 auth=1 remetente=sga@appsga.com.br
+[2026-01-15 20:32:04] [INFO] Encontrados 3 emails pendentes (status=0)
+[2026-01-15 20:32:04] [INFO] Processando 3 emails
+[2026-01-15 20:32:47] [INFO] Ciclo finalizado | enviados=3 falhas=0
+[2026-01-15 20:53:49] [INFO] Rota /start acionada | IP=127.0.0.1
+[2026-01-15 20:53:49] [INFO] Conectando ao banco 127.0.0.1:3306/sga_dev2
+[2026-01-15 20:53:49] [INFO] Conectado ao banco com sucesso
+[2026-01-15 20:53:49] [INFO] Tabela 'email_outbox' encontrada
+[2026-01-15 20:53:49] [INFO] Carregando config SMTP da prm_email
+[2026-01-15 20:53:49] [INFO] SMTP OK | servidor=dfpcmefspt.underplatform.com porta=465 auth=1 remetente=sga@appsga.com.br
+[2026-01-15 20:53:49] [INFO] Encontrados 3 emails pendentes (status=0)
+[2026-01-15 20:53:49] [INFO] Processando 3 emails
+[2026-01-15 20:54:32] [INFO] Ciclo finalizado | enviados=3 falhas=0
