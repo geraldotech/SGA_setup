@@ -1,18 +1,40 @@
-[2026-01-15 20:32:04] [INFO] Rota /start acionada | IP=127.0.0.1
-[2026-01-15 20:32:04] [INFO] Conectando ao banco 127.0.0.1:3306/sga_dev2
-[2026-01-15 20:32:04] [INFO] Conectado ao banco com sucesso
-[2026-01-15 20:32:04] [INFO] Tabela 'email_outbox' encontrada
-[2026-01-15 20:32:04] [INFO] Carregando config SMTP da prm_email
-[2026-01-15 20:32:04] [INFO] SMTP OK | servidor=dfpcmefspt.underplatform.com porta=465 auth=1 remetente=sga@appsga.com.br
-[2026-01-15 20:32:04] [INFO] Encontrados 3 emails pendentes (status=0)
-[2026-01-15 20:32:04] [INFO] Processando 3 emails
-[2026-01-15 20:32:47] [INFO] Ciclo finalizado | enviados=3 falhas=0
-[2026-01-15 20:53:49] [INFO] Rota /start acionada | IP=127.0.0.1
-[2026-01-15 20:53:49] [INFO] Conectando ao banco 127.0.0.1:3306/sga_dev2
-[2026-01-15 20:53:49] [INFO] Conectado ao banco com sucesso
-[2026-01-15 20:53:49] [INFO] Tabela 'email_outbox' encontrada
-[2026-01-15 20:53:49] [INFO] Carregando config SMTP da prm_email
-[2026-01-15 20:53:49] [INFO] SMTP OK | servidor=dfpcmefspt.underplatform.com porta=465 auth=1 remetente=sga@appsga.com.br
-[2026-01-15 20:53:49] [INFO] Encontrados 3 emails pendentes (status=0)
-[2026-01-15 20:53:49] [INFO] Processando 3 emails
-[2026-01-15 20:54:32] [INFO] Ciclo finalizado | enviados=3 falhas=0
+[2026-02-10 22:07:18] [INFO] Rota /start acionada | IP=127.0.0.1
+[2026-02-10 22:07:18] [INFO] Conectando ao banco 127.0.0.1:3306/sga_dev2
+[2026-02-10 22:07:18] [INFO] Conectado ao banco com sucesso
+[2026-02-10 22:07:18] [INFO] Tabela 'email_outbox' encontrada
+[2026-02-10 22:07:18] [INFO] Carregando config SMTP da prm_email
+[2026-02-10 22:07:18] [INFO] SMTP OK | servidor=dfpcmefspt.underplatform.com porta=465 auth=1 remetente=sga@appsga.com.br
+[2026-02-10 22:07:18] [INFO] Nenhum email pendente (status=0)
+[2026-02-10 22:07:18] [INFO] Sem emails pendentes no momento
+[2026-02-10 22:23:43] [INFO] ======================================
+[2026-02-10 22:23:43] [INFO] Inicializando MailWorker
+[2026-02-10 22:23:43] [INFO] Log: C:\Users\geral\Dev\SGA_setup\mailworker\logs\info.log
+[2026-02-10 22:23:43] [INFO] DB: 127.0.0.1:3306/sga_dev2
+[2026-02-10 22:23:43] [INFO] OUTBOX_TABLE: email_outbox
+[2026-02-10 22:23:43] [INFO] BATCH_SIZE: 10 | POLL_SECONDS: 15 | AUTO_START: False
+[2026-02-10 22:23:43] [INFO] ======================================
+[2026-02-10 22:23:43] [INFO] Flask rodando na porta 5001
+[2026-02-10 22:23:46] [INFO] Rota /start acionada | IP=127.0.0.1
+[2026-02-10 22:23:46] [INFO] Conectando ao banco 127.0.0.1:3306/sga_dev2
+[2026-02-10 22:23:46] [INFO] Conectado ao banco com sucesso
+[2026-02-10 22:23:46] [INFO] Tabela 'email_outbox' encontrada
+[2026-02-10 22:23:46] [INFO] Carregando config SMTP da prm_email
+[2026-02-10 22:23:46] [INFO] SMTP OK | servidor=dfpcmefspt.underplatform.com porta=465 auth=1 remetente=sga@appsga.com.br
+[2026-02-10 22:23:46] [INFO] Nenhum email pendente (status=0)
+[2026-02-10 22:23:46] [INFO] Sem emails pendentes no momento
+[2026-02-10 22:24:13] [INFO] ======================================
+[2026-02-10 22:24:13] [INFO] Inicializando MailWorker
+[2026-02-10 22:24:13] [INFO] Log: C:\Users\geral\Dev\SGA_setup\mailworker\logs\info.log
+[2026-02-10 22:24:13] [INFO] DB: 127.0.0.1:3306/sga_dev2
+[2026-02-10 22:24:13] [INFO] OUTBOX_TABLE: email_outbox
+[2026-02-10 22:24:13] [INFO] BATCH_SIZE: 10 | POLL_SECONDS: 15 | AUTO_START: False
+[2026-02-10 22:24:13] [INFO] ======================================
+[2026-02-10 22:24:13] [INFO] Flask rodando na porta 5001
+[2026-02-10 22:27:24] [INFO] Rota /start acionada | IP=127.0.0.1
+[2026-02-10 22:27:24] [INFO] Conectando ao banco 127.0.0.1:3306/sga_dev2
+[2026-02-10 22:27:24] [INFO] Conectado ao banco com sucesso
+[2026-02-10 22:27:24] [INFO] Tabela 'email_outbox' encontrada
+[2026-02-10 22:27:24] [INFO] Carregando config SMTP da prm_email
+[2026-02-10 22:27:24] [INFO] SMTP OK | servidor=dfpcmefspt.underplatform.com porta=465 auth=1 remetente=sga@appsga.com.br
+[2026-02-10 22:27:24] [INFO] Nenhum email pendente (status=0)
+[2026-02-10 22:27:24] [INFO] Sem emails pendentes no momento
