@@ -5,3 +5,6 @@
 
 -- win para docker tempo decorrido
 00:35 a 00:46 (11 minutos)
+
+
+- sendData no último teste não enviou todos os jsons
